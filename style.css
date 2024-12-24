@@ -11,18 +11,31 @@ body {
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
+    width: 100vw;
     height: 60px;
     background-color: #333;
     font-size: 20px;
 }
 
 a{
-    padding: 20px 30px;
+    padding: 20px;
     text-decoration: none;
     color: #fff;
 }
 a:hover{
     background-color: #555;
+}
+
+.brandName{
+    padding: 15px 20px;
+    font-size: 30px;
+    color: tomato;
+    font-weight: 600;
+}
+
+.nav{
+    display: flex;
+    height: 60px;
+    font-size: 20px;
 }
